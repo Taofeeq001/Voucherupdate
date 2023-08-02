@@ -1,0 +1,40 @@
+.aside{
+    width: 20%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+.back{
+    padding: 15px 30px;
+    border: none;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #00CCFF;
+    font-weight: bold;
+}
+.back svg{
+    color: #00CCFF;
+}
+.aside-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: white;
+    padding: 30px 0;
+    border: 1px solid balck;
+    border-radius: 20px;
+}
+.payment{
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 950px){
+    .aside{
+        display: none;
+    }
+}

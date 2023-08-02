@@ -1,0 +1,114 @@
+.body{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.body-top{
+    display: flex;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: #FAA68B47;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.body-form{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+}
+.body-form h3{
+    margin-top: 58px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.information label{
+    font-weight: bold;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.infor input{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+.details1{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+.coverbtn{
+    display: flex;
+}
+.infor2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.infor2 button{
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.coverbtn input{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    padding: 10px;
+}
+.coverbtn button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.change{
+    width: 100%;
+    margin-bottom: 5rem;
+
+}
+.change button{
+    float: right;
+    background-color: #00CCFF;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.details1 span{
+    font-weight: 300;
+    color: rgb(207, 204, 204);
+}
+.country{
+    border-top-right-radius: 0;
+    width: 10%;
+}
+
+@media screen and (max-width: 950px) {
+    .body{
+        width: 100%;
+        flex-direction: column;
+    }
+    .body-top{
+        display: flex;
+        width: 100%;
+
+    }
+    .body-form{
+        flex-direction: column;
+        width: 100%;
+    }
+    .information{
+        flex-direction: column;
+    }
+    .details1{
+        flex-direction: column;
+    }
+}
