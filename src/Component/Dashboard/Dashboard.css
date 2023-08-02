@@ -21,17 +21,19 @@
 .dashboard-content{
     display: flex;
     gap: 30px;
+    margin-bottom: 16rem;
 }
 
 @media screen and (max-width: 950px) {
     .container{
         width: 100%;
         flex-direction: column;
-        padding: 0;
+        padding:10px;
     }
     .dashboard-content{
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+        margin-bottom: 0;
     }
 }

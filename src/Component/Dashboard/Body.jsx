@@ -32,6 +32,7 @@ const Body = () =>{
         }else if(!businessAddress){
             alert("Business Address must not be empty")
         }
+        
         else if(businessAddress && business_email && phone && disputeEmail){
             const base_url = `https://api.voucherpay.online/compliance/contact`
             const info = {
