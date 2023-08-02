@@ -26,7 +26,7 @@ const Body = () =>{
         if(!business_email){
             alert("Business field is compulsory")
         }else if(!disputeEmail){
-            alert("Sispute field is compulsory")
+            alert("Dispute field is compulsory")
         }else if(!phone){
             alert("Input Phone number")
         }else if(!businessAddress){
